@@ -18,8 +18,7 @@ import StudentDirectory from "./components/StudentDirectory";
 import StudentForm from "./components/StudentForm";
 
 const API_URL =
-    import.meta.env.VITE_API_URL ||
-    "https://student-management-api-qjhd.onrender.com/api/students";
+    "https://student-management-system-ca2.onrender.com";
 
 function App() {
   const [showStudentForm, setShowStudentForm] = useState(false);
