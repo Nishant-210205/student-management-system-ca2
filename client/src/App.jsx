@@ -17,8 +17,9 @@ import StatCard from "./components/StatCard";
 import StudentDirectory from "./components/StudentDirectory";
 import StudentForm from "./components/StudentForm";
 
+
 const API_URL =
-    "https://student-management-system-ca2.onrender.com";
+    "https://student-management-system-ca2.onrender.com/api/students";
 
 function App() {
   const [showStudentForm, setShowStudentForm] = useState(false);
