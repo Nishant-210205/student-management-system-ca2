@@ -1,0 +1,33 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+client/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.local
